@@ -1,0 +1,82 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #020617);
+    margin: 0;
+}
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.home:hover{
+    color:aqua;
+}
+.home:clicked{
+    color:white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+section {
+    background: white;
+    border-radius: 40px;
+    margin: 30px;
+    padding: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.project-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+}
+
+.header {
+    background-image: url(tech_photto.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+
+
+}
